@@ -19,8 +19,6 @@
 		BF4A6F771E16A05A00B4F445 /* AppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A6F751E16A05A00B4F445 /* AppTableViewCell.swift */; };
 		BF4A6F781E16A05A00B4F445 /* AppTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4A6F761E16A05A00B4F445 /* AppTableViewCell.xib */; };
 		BF4A6F7A1E16BA5900B4F445 /* NewGameContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A6F791E16BA5900B4F445 /* NewGameContainer.swift */; };
-		BF50AB9D1E1A19B900C5F844 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50AB9B1E1A19B900C5F844 /* HeaderCollectionReusableView.swift */; };
-		BF50AB9E1E1A19B900C5F844 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF50AB9C1E1A19B900C5F844 /* HeaderCollectionReusableView.xib */; };
 		BF7B35061E18FE56001AB0D1 /* NewGameCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7B35051E18FE56001AB0D1 /* NewGameCollectionView.swift */; };
 		BF7B35091E18FF95001AB0D1 /* NewGameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7B35071E18FF95001AB0D1 /* NewGameCollectionViewCell.swift */; };
 		BF7B350A1E18FF95001AB0D1 /* NewGameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7B35081E18FF95001AB0D1 /* NewGameCollectionViewCell.xib */; };
@@ -56,8 +54,6 @@
 		BF4A6F751E16A05A00B4F445 /* AppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTableViewCell.swift; sourceTree = "<group>"; };
 		BF4A6F761E16A05A00B4F445 /* AppTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppTableViewCell.xib; sourceTree = "<group>"; };
 		BF4A6F791E16BA5900B4F445 /* NewGameContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameContainer.swift; sourceTree = "<group>"; };
-		BF50AB9B1E1A19B900C5F844 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
-		BF50AB9C1E1A19B900C5F844 /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
 		BF7B35051E18FE56001AB0D1 /* NewGameCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameCollectionView.swift; sourceTree = "<group>"; };
 		BF7B35071E18FF95001AB0D1 /* NewGameCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF7B35081E18FF95001AB0D1 /* NewGameCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewGameCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -150,8 +146,6 @@
 				BF4A6F791E16BA5900B4F445 /* NewGameContainer.swift */,
 				BF7B35071E18FF95001AB0D1 /* NewGameCollectionViewCell.swift */,
 				BF7B35081E18FF95001AB0D1 /* NewGameCollectionViewCell.xib */,
-				BF50AB9B1E1A19B900C5F844 /* HeaderCollectionReusableView.swift */,
-				BF50AB9C1E1A19B900C5F844 /* HeaderCollectionReusableView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -279,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF50AB9E1E1A19B900C5F844 /* HeaderCollectionReusableView.xib in Resources */,
 				BF4A6F5A1E16423900B4F445 /* LaunchScreen.storyboard in Resources */,
 				BF4A6F681E1646CB00B4F445 /* SpotlightCollectionViewCell.xib in Resources */,
 				BF4A6F781E16A05A00B4F445 /* AppTableViewCell.xib in Resources */,
@@ -300,7 +293,6 @@
 			files = (
 				BFC000811E1D279800BCA1DC /* FavoriteViewController.swift in Sources */,
 				BF4A6F671E1646CB00B4F445 /* SpotlightCollectionViewCell.swift in Sources */,
-				BF50AB9D1E1A19B900C5F844 /* HeaderCollectionReusableView.swift in Sources */,
 				BF4A6F501E16423900B4F445 /* AppDelegate.swift in Sources */,
 				BFC0007B1E1CC7A200BCA1DC /* FontStyleViewController.swift in Sources */,
 				BFC0007F1E1D00BC00BCA1DC /* FontStyleTableViewCell.swift in Sources */,

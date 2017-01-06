@@ -28,7 +28,6 @@ class PhotoLayout: UICollectionViewLayout {
         squareCellLength = contentWidth / 3
         contentHeight = CGFloat(contentRow) * squareCellLength + squareCellLength
         
-        
         for itemIndex in 0 ..< Int(numberOfItems) {
             let attribute = UICollectionViewLayoutAttributes(forCellWith: IndexPath(item: itemIndex, section: 0))
             var size = CGSize(width: squareCellLength, height: squareCellLength)
